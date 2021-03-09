@@ -8,7 +8,7 @@ def main():
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
 
-    updater.start_polling(1.5)
+    updater.start_polling()
     updater.idle()
 
 
