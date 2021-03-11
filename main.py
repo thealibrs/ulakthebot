@@ -15,7 +15,7 @@ def main():
 
 
     #while I write unknown word that the bot doesnt know
-    dp.add_handler(MessageHandler(Filters.text, f.wrong_command))
+    dp.add_handler(MessageHandler(Filters.text, c.wrong_command))
 
     updater.start_polling()
     updater.idle()
