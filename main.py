@@ -1,6 +1,6 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import commands as c
-TOKEN = "1685639520:AAHf0jD739qNURYHedUZSlYx-3GCrX91ts8"
+TOKEN = "your_token"
 
 print("Bot çalışmaya başladı!")
 
